@@ -26,6 +26,13 @@
     "rules": {
         "react/react-in-jsx-scope": "off",
         "comma-dangle": "off",
-        "@typescript-eslint/comma-dangle": "off"
+        "@typescript-eslint/comma-dangle": "off",
+        "no-console": 0,
+        "prettier/prettier": [
+            "error",
+            {
+              "endOfLine": "auto"
+            }
+          ]
     }
 }
