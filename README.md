@@ -8,7 +8,7 @@ The web application was developed by KiWiCode Solution. Our team:
 
 - [@VinnikA](https://github.com/VinnikA)
 - [@superbowl-alex](https://github.com/superbowl-alex)
-++ Add your profile
+- [@Aleksandr-Pod](https://github.com/Aleksandr-Pod)
 
 [//]: ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
