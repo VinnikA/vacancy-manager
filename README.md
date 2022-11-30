@@ -10,13 +10,12 @@ The web application was developed by KiWiCode Solution. Our team:
 - [@superbowl-alex](https://github.com/superbowl-alex)
 ++ Add your profile
 
+[//]: ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
+[//]: ## Demo
 
-## Demo
-
-Insert gif or link to demo
+[//]: Insert gif or link to demo
 
 
 ## FAQ
@@ -47,7 +46,7 @@ If you have any feedback, please reach out to us at kiwicode.solution@gmail.com
 
 ## Support
 
-For support, email kiwicode.solution@gmail.com or join our Slack channel.
+For support, email kiwicode.solution@gmail.com
 
 
 ## Tech Stack
