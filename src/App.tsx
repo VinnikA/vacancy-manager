@@ -1,5 +1,7 @@
+import Loader from './components/ui/loader';
+
 function App() {
-  return <div className="app"> Vacancy Manager </div>;
+  return <Loader />;
 }
 
 export default App;
