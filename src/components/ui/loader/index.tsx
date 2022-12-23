@@ -1,6 +1,5 @@
 import circle from '../../../assets/icons/circle.svg';
 import triangle from '../../../assets/icons/triangle.svg';
-import './styles.css';
 
 export default function Loader() {
   return (
