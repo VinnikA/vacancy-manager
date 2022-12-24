@@ -1,6 +1,6 @@
 export default function Onboarding() {
   return (
-    <div>
+    <div className="my-4">
       <h2>Onboarding</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio veniam laboriosam corrupti, voluptas provident

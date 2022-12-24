@@ -2,8 +2,8 @@ import './styles.css';
 
 export default function LogInPage() {
   return (
-    <div>
-      <h1>Log In Page</h1>
+    <div className="container mx-auto px-4">
+      <h1 className="text-2xl">Log In Page</h1>
     </div>
   );
 }

@@ -1,6 +1,6 @@
-export default function UserMain() {
+export default function Main() {
   return (
-    <div>
+    <div className="container mx-auto px-4">
       <h1 className="text-2xl mb-4">User Main Page</h1>
       <h2>Hello user!</h2>
       <p>
