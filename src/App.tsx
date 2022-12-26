@@ -1,10 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
 import LogInPage from './pages/login';
-import Welcome from './pages/welcom';
+import Welcome from './pages/welcome';
 import SignUpPage from './pages/signup';
 import Main from './pages/main';
 import NotFound from './pages/notfound';
-import PrivateRout from './hocs/PrivateRout';
+import PrivateRout from './hocs/PrivateRoute';
 
 function App() {
   return (
