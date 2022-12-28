@@ -1,9 +1,9 @@
 import './styles.css';
 
-export default function LogInPage() {
+export default function SignUpPage() {
   return (
     <div className="container mx-auto px-4">
-      <h1 className="text-2xl">Log In Page</h1>
+      <h1 className="text-2xl">Sign Up Page</h1>
     </div>
   );
 }
