@@ -1,0 +1,11 @@
+.btn {
+  @apply bg-[#2E2E35] rounded-[6px] w-full py-[17px] text-[#FFFFFF] h-[56px];
+}
+
+.btn_dark {
+  @apply bg-[#F0BE6C] rounded-[6px] w-full py-[17px] text-[#FFFFFF] h-[56px];
+}
+
+.btn_title {
+  @apply text-[16px] font-[800];
+}
