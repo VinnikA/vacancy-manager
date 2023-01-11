@@ -2,23 +2,17 @@ import './styles.css';
 
 interface IButton {
   children: string;
-  variant?: string;
-  btn_type: string;
-  clickFn: () => void;
+  variant: string;
+  btnType?: string;
+  clickFn?: () => void;
 }
 
-const Button = ({ children, variant, btn_type, clickFn }: IButton) => {
+export default function Button({ children, variant, btnType, clickFn }: IButton) {
+  const currentStyle = variant ? `btn__${variant}` : `btn`;
+
   return (
-    <button
-      type={btn_type}
-      className="btn"
-      onClick={() => {
-        clickFn();
-      }}
-    >
-      <span className="btn_title">{children}</span>
+    <button type={btnType} className={currentStyle} onClick={clickFn}>
+      {children}
     </button>
   );
-};
-
-export default Button;
+}
