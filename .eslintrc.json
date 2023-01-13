@@ -20,6 +20,10 @@
   },
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
+    "react/button-has-type": 0,
+    "react/require-default-props": [0, {
+      "ignoreFunctionalComponent": true
+    }],
     "react/react-in-jsx-scope": "off",
     "comma-dangle": "off",
     "@typescript-eslint/comma-dangle": "off",
