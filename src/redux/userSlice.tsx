@@ -1,11 +1,26 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import type { RootState } from './store';
 
-interface IisAuth {
-  isAuth: boolean;
-}
+// interface IisAuth {
+//   isAuth: boolean;
+//   name: string;
+//   email: string;
+//   password: string;
+//   token: string;
+//   profile: { [key: string]: string };
+// }
 
-const initialState: IisAuth = { isAuth: false };
+const initialState = {
+  isAuth: false,
+  name: '',
+  email: '',
+  password: '',
+  token: '',
+  profile: {
+    phoneNumber: '',
+    position: '',
+  },
+};
 
 const userSlice = createSlice({
   name: 'user',
